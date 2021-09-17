@@ -12,7 +12,7 @@ def notify():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('saleemusama1@gmail.com', 'jixhgovxcpfzdjbf')
+    server.login('saleemusama1@gmail.com', 'onetimepassword here')
     subject = '[NEWEGG] Price Alert!'
     body = 'Hey! The price has gone down. Its now ' + str(price) + ', heres the product link: ' + URL
 
